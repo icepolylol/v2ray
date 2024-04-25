@@ -22,6 +22,9 @@
 <li>
 <p><strong>Cloudflare Account:</strong> If you opt to use a domain for your V2Ray server, having a Cloudflare account is recommended. Cloudflare offers additional security features and can help improve the performance and reliability of your server by acting as a CDN (Content Delivery Network) and providing DDoS protection.</p>
 </li>
+<li>
+<p><strong>V2Ray Client:</strong> To connect to the V2Ray server, you’ll need a V2Ray client installed on your device. For Windows, you can use clients like v2rayn or nekoray. For mobile devices, you can use a client like v2rayng.</p>
+</li>
 </ol>
 <p>With these prerequisites fulfilled, you’ll be ready to proceed with the installation of V2Ray on Ubuntu 22.04. If you opt to use a domain and Cloudflare, your V2Ray setup will benefit from enhanced security and performance features.</p>
 <h3 id="ssh-access-to-your-server">SSH Access to Your Server</h3>
@@ -90,7 +93,7 @@ Certainly, let’s modify the installation process to include prompts for userna
 <p>Once the installation is complete, you will receive a confirmation message indicating that 3X-UI has been successfully installed on your server.</p>
 </li>
 <li>
-<p>Access 3X-UI by opening a web browser and navigating to the URL of your server followed by the custom port number you specified during installation. For example, if your server’s IP address is “123.456.789.0” and you chose port 8443, you would enter “<a href="https://123.456.789.0:8443">https://123.456.789.0:8443</a>” in the address bar of your browser.</p>
+<p>Access 3X-UI by opening a web browser and navigating to the URL of your server followed by the custom port number you specified during installation. For example, if your server’s IP address is “123.456.789.0” and you chose port 8443, you would enter "<strong><a href="https://123.456.789.0:8443">https://123.456.789.0:8443</a>"</strong> in the address bar of your browser.</p>
 </li>
 <li>
 <p>Log in to the 3X-UI panel using the username and password you configured during the installation process.</p>
