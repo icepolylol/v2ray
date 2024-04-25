@@ -73,10 +73,9 @@ Certainly, let’s modify the installation process to include prompts for userna
 </li>
 <li>
 <p>Once the package update and upgrade process is complete, run the following command to download and execute the installation script for 3X-UI:</p>
-<p>bash</p>
+<p>bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh">https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh</a>)</p>
 </li>
 </ul>
-<p><code>bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)</code></p>
 <p>This command will retrieve the installation script from the GitHub repository and execute it. During the installation process, you may encounter a purple window. If you see this, simply press Enter to proceed.</p>
 <ul>
 <li>
